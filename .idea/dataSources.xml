@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails PortfolioApp: production" uuid="2401dc91-9f3b-496a-b75d-e97bb703b7b8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/PortfolioApp_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails PortfolioApp: test" uuid="074f4457-8fae-489f-8a98-3954088d0f48">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/PortfolioApp_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails PortfolioApp: development" uuid="7c3b1094-3318-4178-9eb4-e4ce5dea44ac">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/PortfolioApp_development</jdbc-url>
+    </data-source>
+  </component>
+</project>
