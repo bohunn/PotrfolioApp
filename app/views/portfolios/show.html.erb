@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+
+<% @portfolio_items.each do |portfolio_item| %>
+  <p> <%= @portfolio_items.title %> </p>
+  <p> <%= @portfolio_items.subtitle %> </p>
+  <p> <%= @portfolio_items.body %> </p>
+  <%= image_tag portfolio_item.thumb_image unless  portfolio_item.thumb_image.nil?%>
+<% end %>
+
+
+
+
+
+
+
