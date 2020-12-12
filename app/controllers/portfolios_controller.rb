@@ -40,6 +40,15 @@ class PortfoliosController < ApplicationController
     end
   end
 
+  def destroy
+    @portfolio_items = Portfolio.find(params[:id])
+    @portfolio_items.destroy
+    respond_to do |format|
+      format.html { redirect_to portfolio_url, notice: 'Portfolio was succesfully destroyed' }
+      format.json { head :no_content }
+    end
+  end
+
   private
 
   # Use callbacks to share common setup or constraints between actions.
